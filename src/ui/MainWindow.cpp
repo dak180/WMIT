@@ -432,6 +432,10 @@ void MainWindow::_on_viewerInitialized()
 				pathvert = WMIT_SHADER_PIE3_USERFILE_VERT;
 				pathfrag = WMIT_SHADER_PIE3_USERFILE_FRAG;
 				break;
+			case WZ_SHADER_TCMASK:
+				pathvert = WMIT_SHADER_TCMASK_DEFPATH_VERT;
+				pathfrag = WMIT_SHADER_TCMASK_DEFPATH_FRAG;
+				break;
 			default:
 				break;
 			}
