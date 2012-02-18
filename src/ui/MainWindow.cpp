@@ -83,6 +83,8 @@ MainWindow::MainWindow(QWidget *parent) :
 
 	// disable wip-parts
 	ui->actionSave->setDisabled(true);
+
+	saveAsPie2 = false;
 }
 
 MainWindow::~MainWindow()
@@ -175,7 +177,15 @@ bool MainWindow::saveModel(const QString &file, const WZM &model, const wmit_fil
 		WZM m(model);
 		m.reverseWinding(-1);
 		Pie3Model p3 = m;
-		p3.write(out);
+		if (saveAsPie2)
+		{
+			Pie2Model p2 = p3;
+			p2.write(out);
+		}
+		else
+		{
+			p3.write(out);
+		}
 	}
 
 	out.close();
@@ -202,7 +212,15 @@ bool MainWindow::saveModel(const QString &file, const QWZM &model, const wmit_fi
 		WZM wzm(p3);
 		wzm.reverseWinding(-1);
 		p3 = wzm;
-		p3.write(out);
+		if (saveAsPie2)
+		{
+			Pie2Model p2 = p3;
+			p2.write(out);
+		}
+		else
+		{
+			p3.write(out);
+		}
 	}
 
 	out.close();
@@ -337,6 +355,11 @@ void MainWindow::on_actionOpen_triggered()
 void MainWindow::on_actionUVEditor_toggled(bool show)
 {
 	show? m_UVEditor->show() : m_UVEditor->hide();
+}
+
+void MainWindow::on_actionSaveAsPie2_triggered(bool pie2)
+{
+	saveAsPie2 = pie2;
 }
 
 void MainWindow::on_actionSave_triggered()

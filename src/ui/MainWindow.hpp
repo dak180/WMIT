@@ -54,8 +54,8 @@ public:
 
 	static bool loadModel(const QString& file, WZM& model);
 	static bool guessModelTypeFromFilename(const QString &fname, wmit_filetype_t &type);
-	static bool saveModel(const QString& file, const WZM& model, const wmit_filetype_t &type);
-	static bool saveModel(const QString& file, const QWZM& model, const wmit_filetype_t &type);
+	bool saveModel(const QString& file, const WZM& model, const wmit_filetype_t &type);
+	bool saveModel(const QString& file, const QWZM& model, const wmit_filetype_t &type);
 protected:
 	void changeEvent(QEvent *e);
 
@@ -69,6 +69,7 @@ private slots:
 	void on_actionSetupTextures_triggered();
 	void on_actionAppendModel_triggered();
 	void on_actionTakeScreenshot_triggered();
+	void on_actionSaveAsPie2_triggered(bool);
 
 	void _on_viewerInitialized();
 	void _on_shaderActionTriggered(int);
@@ -99,6 +100,7 @@ private:
 	QWZM m_model;
 
 	bool fireTextureDialog(const bool reinit = false);
+	bool saveAsPie2;
 };
 
 #endif // MAINWINDOW_HPP
