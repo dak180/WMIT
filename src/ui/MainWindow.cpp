@@ -172,7 +172,9 @@ bool MainWindow::saveModel(const QString &file, const WZM &model, const wmit_fil
 		break;
 	case WMIT_FT_PIE:
 	default:
-		Pie3Model p3 = model;
+		WZM m(model);
+		m.reverseWinding(-1);
+		Pie3Model p3 = m;
 		p3.write(out);
 	}
 
@@ -197,6 +199,9 @@ bool MainWindow::saveModel(const QString &file, const QWZM &model, const wmit_fi
 	case WMIT_FT_PIE:
 	default:
 		Pie3Model p3 = model;
+		WZM wzm(p3);
+		wzm.reverseWinding(-1);
+		p3 = wzm;
 		p3.write(out);
 	}
 
@@ -257,6 +262,7 @@ bool MainWindow::loadModel(const QString& file, WZM& model)
 			if (read_success)
 				model = WZM(p3);
 		}
+		model.reverseWinding(-1);
 	}
 
 	f.close();
