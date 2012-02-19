@@ -63,16 +63,16 @@
 		4310EE031458CCBC00500D8A /* QtGLView.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4310EDDD1458CCBC00500D8A /* QtGLView.cpp */; };
 		4310EE051458CCBC00500D8A /* QWZM.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4310EDE01458CCBC00500D8A /* QWZM.cpp */; };
 		4310EE121458D17300500D8A /* GLee.c in Sources */ = {isa = PBXBuildFile; fileRef = 4310EE101458D17300500D8A /* GLee.c */; };
-		4310EE701458D8BA00500D8A /* UVEditor.hpp in Sources */ = {isa = PBXBuildFile; fileRef = 4310EDD71458CCBC00500D8A /* UVEditor.hpp */; };
-		4310EE711458D8BA00500D8A /* TransformDock.hpp in Sources */ = {isa = PBXBuildFile; fileRef = 4310EDD31458CCBC00500D8A /* TransformDock.hpp */; };
+		4310EE701458D8BA00500D8A /* UVEditor.h in Sources */ = {isa = PBXBuildFile; fileRef = 4310EDD71458CCBC00500D8A /* UVEditor.h */; };
+		4310EE711458D8BA00500D8A /* TransformDock.h in Sources */ = {isa = PBXBuildFile; fileRef = 4310EDD31458CCBC00500D8A /* TransformDock.h */; };
 		4310EE721458D8BA00500D8A /* TextureDialog.h in Sources */ = {isa = PBXBuildFile; fileRef = 4310EDD01458CCBC00500D8A /* TextureDialog.h */; };
-		4310EE731458D8BA00500D8A /* TexConfigDialog.hpp in Sources */ = {isa = PBXBuildFile; fileRef = 4310EDCD1458CCBC00500D8A /* TexConfigDialog.hpp */; };
-		4310EE741458D8BA00500D8A /* TeamColoursDock.hpp in Sources */ = {isa = PBXBuildFile; fileRef = 4310EDC91458CCBC00500D8A /* TeamColoursDock.hpp */; };
-		4310EE751458D8BA00500D8A /* QWZM.hpp in Sources */ = {isa = PBXBuildFile; fileRef = 4310EDE11458CCBC00500D8A /* QWZM.hpp */; };
-		4310EE761458D8BA00500D8A /* QtGLView.hpp in Sources */ = {isa = PBXBuildFile; fileRef = 4310EDDE1458CCBC00500D8A /* QtGLView.hpp */; };
-		4310EE771458D8BA00500D8A /* MainWindow.hpp in Sources */ = {isa = PBXBuildFile; fileRef = 4310EDC51458CCBC00500D8A /* MainWindow.hpp */; };
-		4310EE781458D8BA00500D8A /* ImportDialog.hpp in Sources */ = {isa = PBXBuildFile; fileRef = 4310EDC11458CCBC00500D8A /* ImportDialog.hpp */; };
-		4310EE791458D8BA00500D8A /* ExportDialog.hpp in Sources */ = {isa = PBXBuildFile; fileRef = 4310EDBD1458CCBC00500D8A /* ExportDialog.hpp */; };
+		4310EE731458D8BA00500D8A /* TexConfigDialog.h in Sources */ = {isa = PBXBuildFile; fileRef = 4310EDCD1458CCBC00500D8A /* TexConfigDialog.h */; };
+		4310EE741458D8BA00500D8A /* TeamColoursDock.h in Sources */ = {isa = PBXBuildFile; fileRef = 4310EDC91458CCBC00500D8A /* TeamColoursDock.h */; };
+		4310EE751458D8BA00500D8A /* QWZM.h in Sources */ = {isa = PBXBuildFile; fileRef = 4310EDE11458CCBC00500D8A /* QWZM.h */; };
+		4310EE761458D8BA00500D8A /* QtGLView.h in Sources */ = {isa = PBXBuildFile; fileRef = 4310EDDE1458CCBC00500D8A /* QtGLView.h */; };
+		4310EE771458D8BA00500D8A /* MainWindow.h in Sources */ = {isa = PBXBuildFile; fileRef = 4310EDC51458CCBC00500D8A /* MainWindow.h */; };
+		4310EE781458D8BA00500D8A /* ImportDialog.h in Sources */ = {isa = PBXBuildFile; fileRef = 4310EDC11458CCBC00500D8A /* ImportDialog.h */; };
+		4310EE791458D8BA00500D8A /* ExportDialog.h in Sources */ = {isa = PBXBuildFile; fileRef = 4310EDBD1458CCBC00500D8A /* ExportDialog.h */; };
 		4310EE821458D9F200500D8A /* qglviewer.h in Sources */ = {isa = PBXBuildFile; fileRef = 43B5539A1299C759002AC030 /* qglviewer.h */; };
 		4310EE831458D9F200500D8A /* manipulatedFrame.h in Sources */ = {isa = PBXBuildFile; fileRef = 43B553961299C759002AC030 /* manipulatedFrame.h */; };
 		4310EE841458D9F200500D8A /* manipulatedCameraFrame.h in Sources */ = {isa = PBXBuildFile; fileRef = 43B553941299C759002AC030 /* manipulatedCameraFrame.h */; };
@@ -287,146 +287,146 @@
 
 /* Begin PBXFileReference section */
 		430C2E04129731CE00AAA86E /* Warzone Model Importer Tool.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Warzone Model Importer Tool.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		430C2E07129731CE00AAA86E /* Warzone Model Importer Tool-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "Warzone Model Importer Tool-Info.plist"; path = "Resources/Warzone Model Importer Tool-Info.plist"; sourceTree = "<group>"; };
-		430C2E0D1297326100AAA86E /* COPYING.nongpl */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = COPYING.nongpl; sourceTree = "<group>"; };
-		430C2E0E1297326100AAA86E /* COPYING.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = COPYING.txt; sourceTree = "<group>"; };
-		4310ED991458CBDF00500D8A /* notex.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = notex.png; path = data/images/notex.png; sourceTree = "<group>"; };
-		4310ED9A1458CBDF00500D8A /* pie3.frag */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; name = pie3.frag; path = data/shaders/pie3.frag; sourceTree = "<group>"; };
-		4310ED9B1458CBDF00500D8A /* pie3.vert */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; name = pie3.vert; path = data/shaders/pie3.vert; sourceTree = "<group>"; };
-		4310EDA21458CCBC00500D8A /* GLTexture.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = GLTexture.cpp; sourceTree = "<group>"; };
-		4310EDA31458CCBC00500D8A /* GLTexture.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = GLTexture.hpp; sourceTree = "<group>"; };
-		4310EDA41458CCBC00500D8A /* IAnimatable.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = IAnimatable.hpp; sourceTree = "<group>"; };
-		4310EDA51458CCBC00500D8A /* IGLRenderable.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = IGLRenderable.hpp; sourceTree = "<group>"; };
-		4310EDA61458CCBC00500D8A /* IGLShaderManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IGLShaderManager.h; sourceTree = "<group>"; };
-		4310EDA71458CCBC00500D8A /* IGLShaderRenderable.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IGLShaderRenderable.h; sourceTree = "<group>"; };
-		4310EDA81458CCBC00500D8A /* IGLTexturedRenderable.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = IGLTexturedRenderable.hpp; sourceTree = "<group>"; };
-		4310EDA91458CCBC00500D8A /* IGLTextureManager.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = IGLTextureManager.hpp; sourceTree = "<group>"; };
-		4310EDAA1458CCBC00500D8A /* Polygon.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = Polygon.hpp; sourceTree = "<group>"; };
-		4310EDAB1458CCBC00500D8A /* Polygon_t.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Polygon_t.cpp; sourceTree = "<group>"; };
-		4310EDAC1458CCBC00500D8A /* Vector.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = Vector.hpp; sourceTree = "<group>"; };
-		4310EDAD1458CCBC00500D8A /* VectorTypes.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = VectorTypes.hpp; sourceTree = "<group>"; };
-		4310EDAF1458CCBC00500D8A /* Mesh.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Mesh.cpp; sourceTree = "<group>"; };
-		4310EDB01458CCBC00500D8A /* Mesh.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = Mesh.hpp; sourceTree = "<group>"; };
-		4310EDB11458CCBC00500D8A /* OBJ.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = OBJ.hpp; sourceTree = "<group>"; };
-		4310EDB21458CCBC00500D8A /* Pie.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Pie.cpp; sourceTree = "<group>"; };
-		4310EDB31458CCBC00500D8A /* Pie.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = Pie.hpp; sourceTree = "<group>"; };
-		4310EDB41458CCBC00500D8A /* Pie_t.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Pie_t.cpp; sourceTree = "<group>"; };
-		4310EDB51458CCBC00500D8A /* WZM.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = WZM.cpp; sourceTree = "<group>"; };
-		4310EDB61458CCBC00500D8A /* WZM.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = WZM.hpp; sourceTree = "<group>"; };
-		4310EDB71458CCBC00500D8A /* Generic.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = Generic.cpp; path = src/Generic.cpp; sourceTree = "<group>"; };
-		4310EDB81458CCBC00500D8A /* Generic.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = Generic.hpp; path = src/Generic.hpp; sourceTree = "<group>"; };
-		4310EDB91458CCBC00500D8A /* main.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = main.cpp; path = src/main.cpp; sourceTree = "<group>"; };
-		4310EDBC1458CCBC00500D8A /* ExportDialog.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ExportDialog.cpp; sourceTree = "<group>"; };
-		4310EDBD1458CCBC00500D8A /* ExportDialog.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = ExportDialog.hpp; sourceTree = "<group>"; };
-		4310EDBF1458CCBC00500D8A /* ExportDialog.ui */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = ExportDialog.ui; sourceTree = "<group>"; };
-		4310EDC01458CCBC00500D8A /* ImportDialog.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ImportDialog.cpp; sourceTree = "<group>"; };
-		4310EDC11458CCBC00500D8A /* ImportDialog.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = ImportDialog.hpp; sourceTree = "<group>"; };
-		4310EDC31458CCBC00500D8A /* ImportDialog.ui */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = ImportDialog.ui; sourceTree = "<group>"; };
-		4310EDC41458CCBC00500D8A /* MainWindow.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = MainWindow.cpp; sourceTree = "<group>"; };
-		4310EDC51458CCBC00500D8A /* MainWindow.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = MainWindow.hpp; sourceTree = "<group>"; };
-		4310EDC71458CCBC00500D8A /* MainWindow.ui */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = MainWindow.ui; sourceTree = "<group>"; };
-		4310EDC81458CCBC00500D8A /* TeamColoursDock.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = TeamColoursDock.cpp; sourceTree = "<group>"; };
-		4310EDC91458CCBC00500D8A /* TeamColoursDock.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = TeamColoursDock.hpp; sourceTree = "<group>"; };
-		4310EDCB1458CCBC00500D8A /* TeamColoursDock.ui */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = TeamColoursDock.ui; sourceTree = "<group>"; };
-		4310EDCC1458CCBC00500D8A /* TexConfigDialog.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = TexConfigDialog.cpp; sourceTree = "<group>"; };
-		4310EDCD1458CCBC00500D8A /* TexConfigDialog.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = TexConfigDialog.hpp; sourceTree = "<group>"; };
-		4310EDCE1458CCBC00500D8A /* TexConfigDialog.ui */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = TexConfigDialog.ui; sourceTree = "<group>"; };
-		4310EDCF1458CCBC00500D8A /* TextureDialog.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = TextureDialog.cpp; sourceTree = "<group>"; };
-		4310EDD01458CCBC00500D8A /* TextureDialog.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TextureDialog.h; sourceTree = "<group>"; };
-		4310EDD11458CCBC00500D8A /* TextureDialog.ui */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = TextureDialog.ui; sourceTree = "<group>"; };
-		4310EDD21458CCBC00500D8A /* TransformDock.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = TransformDock.cpp; sourceTree = "<group>"; };
-		4310EDD31458CCBC00500D8A /* TransformDock.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = TransformDock.hpp; sourceTree = "<group>"; };
-		4310EDD51458CCBC00500D8A /* TransformDock.ui */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = TransformDock.ui; sourceTree = "<group>"; };
-		4310EDD61458CCBC00500D8A /* UVEditor.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = UVEditor.cpp; sourceTree = "<group>"; };
-		4310EDD71458CCBC00500D8A /* UVEditor.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = UVEditor.hpp; sourceTree = "<group>"; };
-		4310EDD91458CCBC00500D8A /* UVEditor.ui */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = UVEditor.ui; sourceTree = "<group>"; };
-		4310EDDA1458CCBC00500D8A /* Util.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = Util.cpp; path = src/Util.cpp; sourceTree = "<group>"; };
-		4310EDDB1458CCBC00500D8A /* Util.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = Util.hpp; path = src/Util.hpp; sourceTree = "<group>"; };
-		4310EDDD1458CCBC00500D8A /* QtGLView.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = QtGLView.cpp; sourceTree = "<group>"; };
-		4310EDDE1458CCBC00500D8A /* QtGLView.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = QtGLView.hpp; sourceTree = "<group>"; };
-		4310EDE01458CCBC00500D8A /* QWZM.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = QWZM.cpp; sourceTree = "<group>"; };
-		4310EDE11458CCBC00500D8A /* QWZM.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = QWZM.hpp; sourceTree = "<group>"; };
-		4310EDE21458CCBC00500D8A /* wmit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = wmit.h; path = src/wmit.h; sourceTree = "<group>"; };
-		4310EE101458D17300500D8A /* GLee.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = GLee.c; path = 3rdparty/GLee/GLee.c; sourceTree = "<group>"; };
-		4310EE111458D17300500D8A /* GLee.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GLee.h; path = 3rdparty/GLee/GLee.h; sourceTree = "<group>"; };
-		4322BCBA147BF02D008EB714 /* qglviewer_fr.qm */ = {isa = PBXFileReference; lastKnownFileType = file; name = qglviewer_fr.qm; path = external/libQGLViewer/QGLViewer/qglviewer_fr.qm; sourceTree = "<group>"; };
+		430C2E07129731CE00AAA86E /* Warzone Model Importer Tool-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "Warzone Model Importer Tool-Info.plist"; path = "Resources/Warzone Model Importer Tool-Info.plist"; sourceTree = SOURCE_ROOT; };
+		430C2E0D1297326100AAA86E /* COPYING.nongpl */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = COPYING.nongpl; sourceTree = SOURCE_ROOT; };
+		430C2E0E1297326100AAA86E /* COPYING.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = COPYING.txt; sourceTree = SOURCE_ROOT; };
+		4310ED991458CBDF00500D8A /* notex.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = notex.png; path = data/images/notex.png; sourceTree = SOURCE_ROOT; };
+		4310ED9A1458CBDF00500D8A /* pie3.frag */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; name = pie3.frag; path = data/shaders/pie3.frag; sourceTree = SOURCE_ROOT; };
+		4310ED9B1458CBDF00500D8A /* pie3.vert */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; name = pie3.vert; path = data/shaders/pie3.vert; sourceTree = SOURCE_ROOT; };
+		4310EDA21458CCBC00500D8A /* GLTexture.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = GLTexture.cpp; path = src/basic/GLTexture.cpp; sourceTree = SOURCE_ROOT; };
+		4310EDA31458CCBC00500D8A /* GLTexture.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GLTexture.h; path = src/basic/GLTexture.h; sourceTree = SOURCE_ROOT; };
+		4310EDA41458CCBC00500D8A /* IAnimatable.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = IAnimatable.h; path = src/basic/IAnimatable.h; sourceTree = SOURCE_ROOT; };
+		4310EDA51458CCBC00500D8A /* IGLRenderable.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = IGLRenderable.h; path = src/basic/IGLRenderable.h; sourceTree = SOURCE_ROOT; };
+		4310EDA61458CCBC00500D8A /* IGLShaderManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = IGLShaderManager.h; path = src/basic/IGLShaderManager.h; sourceTree = SOURCE_ROOT; };
+		4310EDA71458CCBC00500D8A /* IGLShaderRenderable.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = IGLShaderRenderable.h; path = src/basic/IGLShaderRenderable.h; sourceTree = SOURCE_ROOT; };
+		4310EDA81458CCBC00500D8A /* IGLTexturedRenderable.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = IGLTexturedRenderable.h; path = src/basic/IGLTexturedRenderable.h; sourceTree = SOURCE_ROOT; };
+		4310EDA91458CCBC00500D8A /* IGLTextureManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = IGLTextureManager.h; path = src/basic/IGLTextureManager.h; sourceTree = SOURCE_ROOT; };
+		4310EDAA1458CCBC00500D8A /* Polygon.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Polygon.h; path = src/basic/Polygon.h; sourceTree = SOURCE_ROOT; };
+		4310EDAB1458CCBC00500D8A /* Polygon_t.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = Polygon_t.cpp; path = src/basic/Polygon_t.cpp; sourceTree = SOURCE_ROOT; };
+		4310EDAC1458CCBC00500D8A /* Vector.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Vector.h; path = src/basic/Vector.h; sourceTree = SOURCE_ROOT; };
+		4310EDAD1458CCBC00500D8A /* VectorTypes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = VectorTypes.h; path = src/basic/VectorTypes.h; sourceTree = SOURCE_ROOT; };
+		4310EDAF1458CCBC00500D8A /* Mesh.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = Mesh.cpp; path = src/formats/Mesh.cpp; sourceTree = SOURCE_ROOT; };
+		4310EDB01458CCBC00500D8A /* Mesh.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Mesh.h; path = src/formats/Mesh.h; sourceTree = SOURCE_ROOT; };
+		4310EDB11458CCBC00500D8A /* OBJ.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = OBJ.h; path = src/formats/OBJ.h; sourceTree = SOURCE_ROOT; };
+		4310EDB21458CCBC00500D8A /* Pie.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = Pie.cpp; path = src/formats/Pie.cpp; sourceTree = SOURCE_ROOT; };
+		4310EDB31458CCBC00500D8A /* Pie.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Pie.h; path = src/formats/Pie.h; sourceTree = SOURCE_ROOT; };
+		4310EDB41458CCBC00500D8A /* Pie_t.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = Pie_t.cpp; path = src/formats/Pie_t.cpp; sourceTree = SOURCE_ROOT; };
+		4310EDB51458CCBC00500D8A /* WZM.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = WZM.cpp; path = src/formats/WZM.cpp; sourceTree = SOURCE_ROOT; };
+		4310EDB61458CCBC00500D8A /* WZM.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = WZM.h; path = src/formats/WZM.h; sourceTree = SOURCE_ROOT; };
+		4310EDB71458CCBC00500D8A /* Generic.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = Generic.cpp; path = src/Generic.cpp; sourceTree = SOURCE_ROOT; };
+		4310EDB81458CCBC00500D8A /* Generic.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Generic.h; path = src/Generic.h; sourceTree = SOURCE_ROOT; };
+		4310EDB91458CCBC00500D8A /* main.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = main.cpp; path = src/main.cpp; sourceTree = SOURCE_ROOT; };
+		4310EDBC1458CCBC00500D8A /* ExportDialog.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = ExportDialog.cpp; path = src/ui/ExportDialog.cpp; sourceTree = SOURCE_ROOT; };
+		4310EDBD1458CCBC00500D8A /* ExportDialog.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ExportDialog.h; path = src/ui/ExportDialog.h; sourceTree = SOURCE_ROOT; };
+		4310EDBF1458CCBC00500D8A /* ExportDialog.ui */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = ExportDialog.ui; path = src/ui/ExportDialog.ui; sourceTree = SOURCE_ROOT; };
+		4310EDC01458CCBC00500D8A /* ImportDialog.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = ImportDialog.cpp; path = src/ui/ImportDialog.cpp; sourceTree = SOURCE_ROOT; };
+		4310EDC11458CCBC00500D8A /* ImportDialog.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ImportDialog.h; path = src/ui/ImportDialog.h; sourceTree = SOURCE_ROOT; };
+		4310EDC31458CCBC00500D8A /* ImportDialog.ui */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = ImportDialog.ui; path = src/ui/ImportDialog.ui; sourceTree = SOURCE_ROOT; };
+		4310EDC41458CCBC00500D8A /* MainWindow.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = MainWindow.cpp; path = src/ui/MainWindow.cpp; sourceTree = SOURCE_ROOT; };
+		4310EDC51458CCBC00500D8A /* MainWindow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MainWindow.h; path = src/ui/MainWindow.h; sourceTree = SOURCE_ROOT; };
+		4310EDC71458CCBC00500D8A /* MainWindow.ui */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = MainWindow.ui; path = src/ui/MainWindow.ui; sourceTree = SOURCE_ROOT; };
+		4310EDC81458CCBC00500D8A /* TeamColoursDock.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = TeamColoursDock.cpp; path = src/ui/TeamColoursDock.cpp; sourceTree = SOURCE_ROOT; };
+		4310EDC91458CCBC00500D8A /* TeamColoursDock.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TeamColoursDock.h; path = src/ui/TeamColoursDock.h; sourceTree = SOURCE_ROOT; };
+		4310EDCB1458CCBC00500D8A /* TeamColoursDock.ui */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = TeamColoursDock.ui; path = src/ui/TeamColoursDock.ui; sourceTree = SOURCE_ROOT; };
+		4310EDCC1458CCBC00500D8A /* TexConfigDialog.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = TexConfigDialog.cpp; path = src/ui/TexConfigDialog.cpp; sourceTree = SOURCE_ROOT; };
+		4310EDCD1458CCBC00500D8A /* TexConfigDialog.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TexConfigDialog.h; path = src/ui/TexConfigDialog.h; sourceTree = SOURCE_ROOT; };
+		4310EDCE1458CCBC00500D8A /* TexConfigDialog.ui */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = TexConfigDialog.ui; path = src/ui/TexConfigDialog.ui; sourceTree = SOURCE_ROOT; };
+		4310EDCF1458CCBC00500D8A /* TextureDialog.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = TextureDialog.cpp; path = src/ui/TextureDialog.cpp; sourceTree = SOURCE_ROOT; };
+		4310EDD01458CCBC00500D8A /* TextureDialog.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TextureDialog.h; path = src/ui/TextureDialog.h; sourceTree = SOURCE_ROOT; };
+		4310EDD11458CCBC00500D8A /* TextureDialog.ui */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = TextureDialog.ui; path = src/ui/TextureDialog.ui; sourceTree = SOURCE_ROOT; };
+		4310EDD21458CCBC00500D8A /* TransformDock.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = TransformDock.cpp; path = src/ui/TransformDock.cpp; sourceTree = SOURCE_ROOT; };
+		4310EDD31458CCBC00500D8A /* TransformDock.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TransformDock.h; path = src/ui/TransformDock.h; sourceTree = SOURCE_ROOT; };
+		4310EDD51458CCBC00500D8A /* TransformDock.ui */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = TransformDock.ui; path = src/ui/TransformDock.ui; sourceTree = SOURCE_ROOT; };
+		4310EDD61458CCBC00500D8A /* UVEditor.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = UVEditor.cpp; path = src/ui/UVEditor.cpp; sourceTree = SOURCE_ROOT; };
+		4310EDD71458CCBC00500D8A /* UVEditor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = UVEditor.h; path = src/ui/UVEditor.h; sourceTree = SOURCE_ROOT; };
+		4310EDD91458CCBC00500D8A /* UVEditor.ui */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = UVEditor.ui; path = src/ui/UVEditor.ui; sourceTree = SOURCE_ROOT; };
+		4310EDDA1458CCBC00500D8A /* Util.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = Util.cpp; path = src/Util.cpp; sourceTree = SOURCE_ROOT; };
+		4310EDDB1458CCBC00500D8A /* Util.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Util.h; path = src/Util.h; sourceTree = SOURCE_ROOT; };
+		4310EDDD1458CCBC00500D8A /* QtGLView.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = QtGLView.cpp; path = src/widgets/QtGLView.cpp; sourceTree = SOURCE_ROOT; };
+		4310EDDE1458CCBC00500D8A /* QtGLView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = QtGLView.h; path = src/widgets/QtGLView.h; sourceTree = SOURCE_ROOT; };
+		4310EDE01458CCBC00500D8A /* QWZM.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = QWZM.cpp; path = src/widgets/QWZM.cpp; sourceTree = SOURCE_ROOT; };
+		4310EDE11458CCBC00500D8A /* QWZM.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = QWZM.h; path = src/widgets/QWZM.h; sourceTree = SOURCE_ROOT; };
+		4310EDE21458CCBC00500D8A /* wmit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = wmit.h; path = src/wmit.h; sourceTree = SOURCE_ROOT; };
+		4310EE101458D17300500D8A /* GLee.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = GLee.c; path = 3rdparty/GLee/GLee.c; sourceTree = SOURCE_ROOT; };
+		4310EE111458D17300500D8A /* GLee.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GLee.h; path = 3rdparty/GLee/GLee.h; sourceTree = SOURCE_ROOT; };
+		4322BCBA147BF02D008EB714 /* qglviewer_fr.qm */ = {isa = PBXFileReference; lastKnownFileType = file; name = qglviewer_fr.qm; path = external/libQGLViewer/QGLViewer/qglviewer_fr.qm; sourceTree = SOURCE_ROOT; };
 		4322BCBC147BF05D008EB714 /* libobjc.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libobjc.dylib; path = usr/lib/libobjc.dylib; sourceTree = SDKROOT; };
-		4322BCF5147C1A46008EB714 /* GenericFramework-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GenericFramework-Info.plist"; path = "Resources/GenericFramework-Info.plist"; sourceTree = "<group>"; };
-		4322BCFA147C1DFC008EB714 /* Base-Framework.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; name = "Base-Framework.xcconfig"; path = "configs/Base-Framework.xcconfig"; sourceTree = "<group>"; };
-		43703E2F129E0C7F00DDDB30 /* Project-All.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; name = "Project-All.xcconfig"; path = "configs/Project-All.xcconfig"; sourceTree = "<group>"; };
-		43703E37129E100F00DDDB30 /* WMIT-All.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; name = "WMIT-All.xcconfig"; path = "configs/WMIT-All.xcconfig"; sourceTree = "<group>"; };
-		43703E38129E100F00DDDB30 /* WMIT-Debug.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; name = "WMIT-Debug.xcconfig"; path = "configs/WMIT-Debug.xcconfig"; sourceTree = "<group>"; };
-		43703E39129E100F00DDDB30 /* WMIT-Release.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; name = "WMIT-Release.xcconfig"; path = "configs/WMIT-Release.xcconfig"; sourceTree = "<group>"; };
-		43703E43129E1AE600DDDB30 /* QGLViewer-All.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; name = "QGLViewer-All.xcconfig"; path = "configs/QGLViewer-All.xcconfig"; sourceTree = "<group>"; };
-		43703E44129E1AE600DDDB30 /* QGLViewer-Debug.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; name = "QGLViewer-Debug.xcconfig"; path = "configs/QGLViewer-Debug.xcconfig"; sourceTree = "<group>"; };
-		43703E45129E1AE600DDDB30 /* QGLViewer-Release.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; name = "QGLViewer-Release.xcconfig"; path = "configs/QGLViewer-Release.xcconfig"; sourceTree = "<group>"; };
-		43B54BEC12998F21002AC030 /* QtCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QtCore.framework; path = external/QT/QtCore.framework; sourceTree = "<group>"; };
-		43B54BEE12998F22002AC030 /* QtGui.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QtGui.framework; path = external/QT/QtGui.framework; sourceTree = "<group>"; };
-		43B54BF012998F22002AC030 /* QtOpenGL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QtOpenGL.framework; path = external/QT/QtOpenGL.framework; sourceTree = "<group>"; };
+		4322BCF5147C1A46008EB714 /* GenericFramework-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GenericFramework-Info.plist"; path = "Resources/GenericFramework-Info.plist"; sourceTree = SOURCE_ROOT; };
+		4322BCFA147C1DFC008EB714 /* Base-Framework.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; name = "Base-Framework.xcconfig"; path = "configs/Base-Framework.xcconfig"; sourceTree = SOURCE_ROOT; };
+		43703E2F129E0C7F00DDDB30 /* Project-All.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; name = "Project-All.xcconfig"; path = "configs/Project-All.xcconfig"; sourceTree = SOURCE_ROOT; };
+		43703E37129E100F00DDDB30 /* WMIT-All.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; name = "WMIT-All.xcconfig"; path = "configs/WMIT-All.xcconfig"; sourceTree = SOURCE_ROOT; };
+		43703E38129E100F00DDDB30 /* WMIT-Debug.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; name = "WMIT-Debug.xcconfig"; path = "configs/WMIT-Debug.xcconfig"; sourceTree = SOURCE_ROOT; };
+		43703E39129E100F00DDDB30 /* WMIT-Release.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; name = "WMIT-Release.xcconfig"; path = "configs/WMIT-Release.xcconfig"; sourceTree = SOURCE_ROOT; };
+		43703E43129E1AE600DDDB30 /* QGLViewer-All.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; name = "QGLViewer-All.xcconfig"; path = "configs/QGLViewer-All.xcconfig"; sourceTree = SOURCE_ROOT; };
+		43703E44129E1AE600DDDB30 /* QGLViewer-Debug.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; name = "QGLViewer-Debug.xcconfig"; path = "configs/QGLViewer-Debug.xcconfig"; sourceTree = SOURCE_ROOT; };
+		43703E45129E1AE600DDDB30 /* QGLViewer-Release.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; name = "QGLViewer-Release.xcconfig"; path = "configs/QGLViewer-Release.xcconfig"; sourceTree = SOURCE_ROOT; };
+		43B54BEC12998F21002AC030 /* QtCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QtCore.framework; path = external/QT/QtCore.framework; sourceTree = SOURCE_ROOT; };
+		43B54BEE12998F22002AC030 /* QtGui.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QtGui.framework; path = external/QT/QtGui.framework; sourceTree = SOURCE_ROOT; };
+		43B54BF012998F22002AC030 /* QtOpenGL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QtOpenGL.framework; path = external/QT/QtOpenGL.framework; sourceTree = SOURCE_ROOT; };
 		43B551451299A5E4002AC030 /* Carbon.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Carbon.framework; path = System/Library/Frameworks/Carbon.framework; sourceTree = SDKROOT; };
 		43B551471299A5E4002AC030 /* OpenGL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGL.framework; path = System/Library/Frameworks/OpenGL.framework; sourceTree = SDKROOT; };
 		43B5534D1299C1BF002AC030 /* QGLViewer.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = QGLViewer.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		43B5535B1299C3AD002AC030 /* GLUT.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GLUT.framework; path = System/Library/Frameworks/GLUT.framework; sourceTree = SDKROOT; };
-		43B553881299C759002AC030 /* camera.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = camera.cpp; path = external/libQGLViewer/QGLViewer/camera.cpp; sourceTree = "<group>"; };
-		43B553891299C759002AC030 /* camera.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = camera.h; path = external/libQGLViewer/QGLViewer/camera.h; sourceTree = "<group>"; };
-		43B5538A1299C759002AC030 /* config.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = config.h; path = external/libQGLViewer/QGLViewer/config.h; sourceTree = "<group>"; };
-		43B5538B1299C759002AC030 /* constraint.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = constraint.cpp; path = external/libQGLViewer/QGLViewer/constraint.cpp; sourceTree = "<group>"; };
-		43B5538C1299C759002AC030 /* constraint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = constraint.h; path = external/libQGLViewer/QGLViewer/constraint.h; sourceTree = "<group>"; };
-		43B5538D1299C759002AC030 /* domUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = domUtils.h; path = external/libQGLViewer/QGLViewer/domUtils.h; sourceTree = "<group>"; };
-		43B5538E1299C759002AC030 /* frame.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = frame.cpp; path = external/libQGLViewer/QGLViewer/frame.cpp; sourceTree = "<group>"; };
-		43B5538F1299C759002AC030 /* frame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = frame.h; path = external/libQGLViewer/QGLViewer/frame.h; sourceTree = "<group>"; };
-		43B553901299C759002AC030 /* ImageInterface.Qt4.ui */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = ImageInterface.Qt4.ui; path = external/libQGLViewer/QGLViewer/ImageInterface.Qt4.ui; sourceTree = "<group>"; };
-		43B553911299C759002AC030 /* keyFrameInterpolator.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = keyFrameInterpolator.cpp; path = external/libQGLViewer/QGLViewer/keyFrameInterpolator.cpp; sourceTree = "<group>"; };
-		43B553921299C759002AC030 /* keyFrameInterpolator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = keyFrameInterpolator.h; path = external/libQGLViewer/QGLViewer/keyFrameInterpolator.h; sourceTree = "<group>"; };
-		43B553931299C759002AC030 /* manipulatedCameraFrame.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = manipulatedCameraFrame.cpp; path = external/libQGLViewer/QGLViewer/manipulatedCameraFrame.cpp; sourceTree = "<group>"; };
-		43B553941299C759002AC030 /* manipulatedCameraFrame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = manipulatedCameraFrame.h; path = external/libQGLViewer/QGLViewer/manipulatedCameraFrame.h; sourceTree = "<group>"; };
-		43B553951299C759002AC030 /* manipulatedFrame.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = manipulatedFrame.cpp; path = external/libQGLViewer/QGLViewer/manipulatedFrame.cpp; sourceTree = "<group>"; };
-		43B553961299C759002AC030 /* manipulatedFrame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = manipulatedFrame.h; path = external/libQGLViewer/QGLViewer/manipulatedFrame.h; sourceTree = "<group>"; };
-		43B553971299C759002AC030 /* mouseGrabber.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = mouseGrabber.cpp; path = external/libQGLViewer/QGLViewer/mouseGrabber.cpp; sourceTree = "<group>"; };
-		43B553981299C759002AC030 /* mouseGrabber.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = mouseGrabber.h; path = external/libQGLViewer/QGLViewer/mouseGrabber.h; sourceTree = "<group>"; };
-		43B553991299C759002AC030 /* qglviewer.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = qglviewer.cpp; path = external/libQGLViewer/QGLViewer/qglviewer.cpp; sourceTree = "<group>"; };
-		43B5539A1299C759002AC030 /* qglviewer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = qglviewer.h; path = external/libQGLViewer/QGLViewer/qglviewer.h; sourceTree = "<group>"; };
-		43B5539B1299C759002AC030 /* qglviewer.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; name = qglviewer.icns; path = external/libQGLViewer/QGLViewer/qglviewer.icns; sourceTree = "<group>"; };
-		43B5539C1299C759002AC030 /* quaternion.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = quaternion.cpp; path = external/libQGLViewer/QGLViewer/quaternion.cpp; sourceTree = "<group>"; };
-		43B5539D1299C759002AC030 /* quaternion.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = quaternion.h; path = external/libQGLViewer/QGLViewer/quaternion.h; sourceTree = "<group>"; };
-		43B5539E1299C759002AC030 /* saveSnapshot.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = saveSnapshot.cpp; path = external/libQGLViewer/QGLViewer/saveSnapshot.cpp; sourceTree = "<group>"; };
-		43B5539F1299C759002AC030 /* vec.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = vec.cpp; path = external/libQGLViewer/QGLViewer/vec.cpp; sourceTree = "<group>"; };
-		43B553A01299C759002AC030 /* vec.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = vec.h; path = external/libQGLViewer/QGLViewer/vec.h; sourceTree = "<group>"; };
-		43B553A21299C759002AC030 /* AxisAlignedBox.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AxisAlignedBox.h; sourceTree = "<group>"; };
-		43B553A31299C759002AC030 /* BackFaceCullingOptimizer.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = BackFaceCullingOptimizer.cpp; sourceTree = "<group>"; };
-		43B553A41299C759002AC030 /* BSPSortMethod.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = BSPSortMethod.cpp; sourceTree = "<group>"; };
-		43B553A51299C759002AC030 /* EPSExporter.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = EPSExporter.cpp; sourceTree = "<group>"; };
-		43B553A61299C759002AC030 /* Exporter.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Exporter.cpp; sourceTree = "<group>"; };
-		43B553A71299C759002AC030 /* Exporter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Exporter.h; sourceTree = "<group>"; };
-		43B553A81299C759002AC030 /* FIGExporter.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = FIGExporter.cpp; sourceTree = "<group>"; };
-		43B553A91299C759002AC030 /* gpc.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = gpc.cpp; sourceTree = "<group>"; };
-		43B553AA1299C759002AC030 /* gpc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = gpc.h; sourceTree = "<group>"; };
-		43B553AB1299C759002AC030 /* NVector3.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = NVector3.cpp; sourceTree = "<group>"; };
-		43B553AC1299C759002AC030 /* NVector3.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NVector3.h; sourceTree = "<group>"; };
-		43B553AD1299C759002AC030 /* Optimizer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Optimizer.h; sourceTree = "<group>"; };
-		43B553AE1299C759002AC030 /* ParserGL.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ParserGL.cpp; sourceTree = "<group>"; };
-		43B553AF1299C759002AC030 /* ParserGL.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ParserGL.h; sourceTree = "<group>"; };
-		43B553B01299C759002AC030 /* Primitive.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Primitive.cpp; sourceTree = "<group>"; };
-		43B553B11299C759002AC030 /* Primitive.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Primitive.h; sourceTree = "<group>"; };
-		43B553B21299C759002AC030 /* PrimitivePositioning.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = PrimitivePositioning.cpp; sourceTree = "<group>"; };
-		43B553B31299C759002AC030 /* PrimitivePositioning.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PrimitivePositioning.h; sourceTree = "<group>"; };
-		43B553B41299C759002AC030 /* SortMethod.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SortMethod.h; sourceTree = "<group>"; };
-		43B553B51299C759002AC030 /* TopologicalSortMethod.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = TopologicalSortMethod.cpp; sourceTree = "<group>"; };
-		43B553B61299C759002AC030 /* Types.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Types.h; sourceTree = "<group>"; };
-		43B553B71299C759002AC030 /* Vector2.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Vector2.cpp; sourceTree = "<group>"; };
-		43B553B81299C759002AC030 /* Vector2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Vector2.h; sourceTree = "<group>"; };
-		43B553B91299C759002AC030 /* Vector3.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Vector3.cpp; sourceTree = "<group>"; };
-		43B553BA1299C759002AC030 /* Vector3.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Vector3.h; sourceTree = "<group>"; };
-		43B553BB1299C759002AC030 /* VisibilityOptimizer.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = VisibilityOptimizer.cpp; sourceTree = "<group>"; };
-		43B553BC1299C759002AC030 /* VRender.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = VRender.cpp; sourceTree = "<group>"; };
-		43B553BD1299C759002AC030 /* VRender.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VRender.h; sourceTree = "<group>"; };
-		43B553BE1299C759002AC030 /* VRenderInterface.Qt4.ui */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = VRenderInterface.Qt4.ui; path = external/libQGLViewer/QGLViewer/VRenderInterface.Qt4.ui; sourceTree = "<group>"; };
-		43B5540C1299D257002AC030 /* QtXml.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QtXml.framework; path = external/QT/QtXml.framework; sourceTree = "<group>"; };
-		43B554541299D88A002AC030 /* Qt3Support.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Qt3Support.framework; path = external/QT/Qt3Support.framework; sourceTree = "<group>"; };
-		43B554561299D88A002AC030 /* QtSql.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QtSql.framework; path = external/QT/QtSql.framework; sourceTree = "<group>"; };
-		43B556711299F308002AC030 /* QtNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QtNetwork.framework; path = external/QT/QtNetwork.framework; sourceTree = "<group>"; };
+		43B553881299C759002AC030 /* camera.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = camera.cpp; path = external/libQGLViewer/QGLViewer/camera.cpp; sourceTree = SOURCE_ROOT; };
+		43B553891299C759002AC030 /* camera.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = camera.h; path = external/libQGLViewer/QGLViewer/camera.h; sourceTree = SOURCE_ROOT; };
+		43B5538A1299C759002AC030 /* config.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = config.h; path = external/libQGLViewer/QGLViewer/config.h; sourceTree = SOURCE_ROOT; };
+		43B5538B1299C759002AC030 /* constraint.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = constraint.cpp; path = external/libQGLViewer/QGLViewer/constraint.cpp; sourceTree = SOURCE_ROOT; };
+		43B5538C1299C759002AC030 /* constraint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = constraint.h; path = external/libQGLViewer/QGLViewer/constraint.h; sourceTree = SOURCE_ROOT; };
+		43B5538D1299C759002AC030 /* domUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = domUtils.h; path = external/libQGLViewer/QGLViewer/domUtils.h; sourceTree = SOURCE_ROOT; };
+		43B5538E1299C759002AC030 /* frame.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = frame.cpp; path = external/libQGLViewer/QGLViewer/frame.cpp; sourceTree = SOURCE_ROOT; };
+		43B5538F1299C759002AC030 /* frame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = frame.h; path = external/libQGLViewer/QGLViewer/frame.h; sourceTree = SOURCE_ROOT; };
+		43B553901299C759002AC030 /* ImageInterface.Qt4.ui */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file; name = ImageInterface.Qt4.ui; path = external/libQGLViewer/QGLViewer/ImageInterface.Qt4.ui; sourceTree = SOURCE_ROOT; };
+		43B553911299C759002AC030 /* keyFrameInterpolator.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = keyFrameInterpolator.cpp; path = external/libQGLViewer/QGLViewer/keyFrameInterpolator.cpp; sourceTree = SOURCE_ROOT; };
+		43B553921299C759002AC030 /* keyFrameInterpolator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = keyFrameInterpolator.h; path = external/libQGLViewer/QGLViewer/keyFrameInterpolator.h; sourceTree = SOURCE_ROOT; };
+		43B553931299C759002AC030 /* manipulatedCameraFrame.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = manipulatedCameraFrame.cpp; path = external/libQGLViewer/QGLViewer/manipulatedCameraFrame.cpp; sourceTree = SOURCE_ROOT; };
+		43B553941299C759002AC030 /* manipulatedCameraFrame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = manipulatedCameraFrame.h; path = external/libQGLViewer/QGLViewer/manipulatedCameraFrame.h; sourceTree = SOURCE_ROOT; };
+		43B553951299C759002AC030 /* manipulatedFrame.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = manipulatedFrame.cpp; path = external/libQGLViewer/QGLViewer/manipulatedFrame.cpp; sourceTree = SOURCE_ROOT; };
+		43B553961299C759002AC030 /* manipulatedFrame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = manipulatedFrame.h; path = external/libQGLViewer/QGLViewer/manipulatedFrame.h; sourceTree = SOURCE_ROOT; };
+		43B553971299C759002AC030 /* mouseGrabber.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = mouseGrabber.cpp; path = external/libQGLViewer/QGLViewer/mouseGrabber.cpp; sourceTree = SOURCE_ROOT; };
+		43B553981299C759002AC030 /* mouseGrabber.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = mouseGrabber.h; path = external/libQGLViewer/QGLViewer/mouseGrabber.h; sourceTree = SOURCE_ROOT; };
+		43B553991299C759002AC030 /* qglviewer.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = qglviewer.cpp; path = external/libQGLViewer/QGLViewer/qglviewer.cpp; sourceTree = SOURCE_ROOT; };
+		43B5539A1299C759002AC030 /* qglviewer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = qglviewer.h; path = external/libQGLViewer/QGLViewer/qglviewer.h; sourceTree = SOURCE_ROOT; };
+		43B5539B1299C759002AC030 /* qglviewer.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; name = qglviewer.icns; path = external/libQGLViewer/QGLViewer/qglviewer.icns; sourceTree = SOURCE_ROOT; };
+		43B5539C1299C759002AC030 /* quaternion.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = quaternion.cpp; path = external/libQGLViewer/QGLViewer/quaternion.cpp; sourceTree = SOURCE_ROOT; };
+		43B5539D1299C759002AC030 /* quaternion.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = quaternion.h; path = external/libQGLViewer/QGLViewer/quaternion.h; sourceTree = SOURCE_ROOT; };
+		43B5539E1299C759002AC030 /* saveSnapshot.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = saveSnapshot.cpp; path = external/libQGLViewer/QGLViewer/saveSnapshot.cpp; sourceTree = SOURCE_ROOT; };
+		43B5539F1299C759002AC030 /* vec.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = vec.cpp; path = external/libQGLViewer/QGLViewer/vec.cpp; sourceTree = SOURCE_ROOT; };
+		43B553A01299C759002AC030 /* vec.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = vec.h; path = external/libQGLViewer/QGLViewer/vec.h; sourceTree = SOURCE_ROOT; };
+		43B553A21299C759002AC030 /* AxisAlignedBox.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AxisAlignedBox.h; path = external/libQGLViewer/QGLViewer/VRender/AxisAlignedBox.h; sourceTree = SOURCE_ROOT; };
+		43B553A31299C759002AC030 /* BackFaceCullingOptimizer.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = BackFaceCullingOptimizer.cpp; path = external/libQGLViewer/QGLViewer/VRender/BackFaceCullingOptimizer.cpp; sourceTree = SOURCE_ROOT; };
+		43B553A41299C759002AC030 /* BSPSortMethod.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = BSPSortMethod.cpp; path = external/libQGLViewer/QGLViewer/VRender/BSPSortMethod.cpp; sourceTree = SOURCE_ROOT; };
+		43B553A51299C759002AC030 /* EPSExporter.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = EPSExporter.cpp; path = external/libQGLViewer/QGLViewer/VRender/EPSExporter.cpp; sourceTree = SOURCE_ROOT; };
+		43B553A61299C759002AC030 /* Exporter.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = Exporter.cpp; path = external/libQGLViewer/QGLViewer/VRender/Exporter.cpp; sourceTree = SOURCE_ROOT; };
+		43B553A71299C759002AC030 /* Exporter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Exporter.h; path = external/libQGLViewer/QGLViewer/VRender/Exporter.h; sourceTree = SOURCE_ROOT; };
+		43B553A81299C759002AC030 /* FIGExporter.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = FIGExporter.cpp; path = external/libQGLViewer/QGLViewer/VRender/FIGExporter.cpp; sourceTree = SOURCE_ROOT; };
+		43B553A91299C759002AC030 /* gpc.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = gpc.cpp; path = external/libQGLViewer/QGLViewer/VRender/gpc.cpp; sourceTree = SOURCE_ROOT; };
+		43B553AA1299C759002AC030 /* gpc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = gpc.h; path = external/libQGLViewer/QGLViewer/VRender/gpc.h; sourceTree = SOURCE_ROOT; };
+		43B553AB1299C759002AC030 /* NVector3.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = NVector3.cpp; path = external/libQGLViewer/QGLViewer/VRender/NVector3.cpp; sourceTree = SOURCE_ROOT; };
+		43B553AC1299C759002AC030 /* NVector3.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NVector3.h; path = external/libQGLViewer/QGLViewer/VRender/NVector3.h; sourceTree = SOURCE_ROOT; };
+		43B553AD1299C759002AC030 /* Optimizer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Optimizer.h; path = external/libQGLViewer/QGLViewer/VRender/Optimizer.h; sourceTree = SOURCE_ROOT; };
+		43B553AE1299C759002AC030 /* ParserGL.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = ParserGL.cpp; path = external/libQGLViewer/QGLViewer/VRender/ParserGL.cpp; sourceTree = SOURCE_ROOT; };
+		43B553AF1299C759002AC030 /* ParserGL.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ParserGL.h; path = external/libQGLViewer/QGLViewer/VRender/ParserGL.h; sourceTree = SOURCE_ROOT; };
+		43B553B01299C759002AC030 /* Primitive.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = Primitive.cpp; path = external/libQGLViewer/QGLViewer/VRender/Primitive.cpp; sourceTree = SOURCE_ROOT; };
+		43B553B11299C759002AC030 /* Primitive.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Primitive.h; path = external/libQGLViewer/QGLViewer/VRender/Primitive.h; sourceTree = SOURCE_ROOT; };
+		43B553B21299C759002AC030 /* PrimitivePositioning.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = PrimitivePositioning.cpp; path = external/libQGLViewer/QGLViewer/VRender/PrimitivePositioning.cpp; sourceTree = SOURCE_ROOT; };
+		43B553B31299C759002AC030 /* PrimitivePositioning.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PrimitivePositioning.h; path = external/libQGLViewer/QGLViewer/VRender/PrimitivePositioning.h; sourceTree = SOURCE_ROOT; };
+		43B553B41299C759002AC030 /* SortMethod.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SortMethod.h; path = external/libQGLViewer/QGLViewer/VRender/SortMethod.h; sourceTree = SOURCE_ROOT; };
+		43B553B51299C759002AC030 /* TopologicalSortMethod.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = TopologicalSortMethod.cpp; path = external/libQGLViewer/QGLViewer/VRender/TopologicalSortMethod.cpp; sourceTree = SOURCE_ROOT; };
+		43B553B61299C759002AC030 /* Types.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Types.h; path = external/libQGLViewer/QGLViewer/VRender/Types.h; sourceTree = SOURCE_ROOT; };
+		43B553B71299C759002AC030 /* Vector2.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = Vector2.cpp; path = external/libQGLViewer/QGLViewer/VRender/Vector2.cpp; sourceTree = SOURCE_ROOT; };
+		43B553B81299C759002AC030 /* Vector2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Vector2.h; path = external/libQGLViewer/QGLViewer/VRender/Vector2.h; sourceTree = SOURCE_ROOT; };
+		43B553B91299C759002AC030 /* Vector3.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = Vector3.cpp; path = external/libQGLViewer/QGLViewer/VRender/Vector3.cpp; sourceTree = SOURCE_ROOT; };
+		43B553BA1299C759002AC030 /* Vector3.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Vector3.h; path = external/libQGLViewer/QGLViewer/VRender/Vector3.h; sourceTree = SOURCE_ROOT; };
+		43B553BB1299C759002AC030 /* VisibilityOptimizer.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = VisibilityOptimizer.cpp; path = external/libQGLViewer/QGLViewer/VRender/VisibilityOptimizer.cpp; sourceTree = SOURCE_ROOT; };
+		43B553BC1299C759002AC030 /* VRender.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = VRender.cpp; path = external/libQGLViewer/QGLViewer/VRender/VRender.cpp; sourceTree = SOURCE_ROOT; };
+		43B553BD1299C759002AC030 /* VRender.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = VRender.h; path = external/libQGLViewer/QGLViewer/VRender/VRender.h; sourceTree = SOURCE_ROOT; };
+		43B553BE1299C759002AC030 /* VRenderInterface.Qt4.ui */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file; name = VRenderInterface.Qt4.ui; path = external/libQGLViewer/QGLViewer/VRenderInterface.Qt4.ui; sourceTree = SOURCE_ROOT; };
+		43B5540C1299D257002AC030 /* QtXml.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QtXml.framework; path = external/QT/QtXml.framework; sourceTree = SOURCE_ROOT; };
+		43B554541299D88A002AC030 /* Qt3Support.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Qt3Support.framework; path = external/QT/Qt3Support.framework; sourceTree = SOURCE_ROOT; };
+		43B554561299D88A002AC030 /* QtSql.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QtSql.framework; path = external/QT/QtSql.framework; sourceTree = SOURCE_ROOT; };
+		43B556711299F308002AC030 /* QtNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QtNetwork.framework; path = external/QT/QtNetwork.framework; sourceTree = SOURCE_ROOT; };
 		43B558471299FD41002AC030 /* CoreFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreFoundation.framework; path = System/Library/Frameworks/CoreFoundation.framework; sourceTree = SDKROOT; };
-		43EE82D114856E5100B0E0C4 /* resources.qrc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = resources.qrc; sourceTree = "<group>"; };
+		43EE82D114856E5100B0E0C4 /* resources.qrc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = resources.qrc; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -484,10 +484,10 @@
 				4310EDBA1458CCBC00500D8A /* ui */,
 				4310EDDC1458CCBC00500D8A /* widgets */,
 				4310EDB71458CCBC00500D8A /* Generic.cpp */,
-				4310EDB81458CCBC00500D8A /* Generic.hpp */,
+				4310EDB81458CCBC00500D8A /* Generic.h */,
 				4310EDB91458CCBC00500D8A /* main.cpp */,
 				4310EDDA1458CCBC00500D8A /* Util.cpp */,
-				4310EDDB1458CCBC00500D8A /* Util.hpp */,
+				4310EDDB1458CCBC00500D8A /* Util.h */,
 				4310EDE21458CCBC00500D8A /* wmit.h */,
 			);
 			name = WMIT;
@@ -521,17 +521,17 @@
 			isa = PBXGroup;
 			children = (
 				4310EDA21458CCBC00500D8A /* GLTexture.cpp */,
-				4310EDA31458CCBC00500D8A /* GLTexture.hpp */,
-				4310EDA41458CCBC00500D8A /* IAnimatable.hpp */,
-				4310EDA51458CCBC00500D8A /* IGLRenderable.hpp */,
+				4310EDA31458CCBC00500D8A /* GLTexture.h */,
+				4310EDA41458CCBC00500D8A /* IAnimatable.h */,
+				4310EDA51458CCBC00500D8A /* IGLRenderable.h */,
 				4310EDA61458CCBC00500D8A /* IGLShaderManager.h */,
 				4310EDA71458CCBC00500D8A /* IGLShaderRenderable.h */,
-				4310EDA81458CCBC00500D8A /* IGLTexturedRenderable.hpp */,
-				4310EDA91458CCBC00500D8A /* IGLTextureManager.hpp */,
-				4310EDAA1458CCBC00500D8A /* Polygon.hpp */,
+				4310EDA81458CCBC00500D8A /* IGLTexturedRenderable.h */,
+				4310EDA91458CCBC00500D8A /* IGLTextureManager.h */,
+				4310EDAA1458CCBC00500D8A /* Polygon.h */,
 				4310EDAB1458CCBC00500D8A /* Polygon_t.cpp */,
-				4310EDAC1458CCBC00500D8A /* Vector.hpp */,
-				4310EDAD1458CCBC00500D8A /* VectorTypes.hpp */,
+				4310EDAC1458CCBC00500D8A /* Vector.h */,
+				4310EDAD1458CCBC00500D8A /* VectorTypes.h */,
 			);
 			name = basic;
 			path = src/basic;
@@ -541,13 +541,13 @@
 			isa = PBXGroup;
 			children = (
 				4310EDAF1458CCBC00500D8A /* Mesh.cpp */,
-				4310EDB01458CCBC00500D8A /* Mesh.hpp */,
-				4310EDB11458CCBC00500D8A /* OBJ.hpp */,
+				4310EDB01458CCBC00500D8A /* Mesh.h */,
+				4310EDB11458CCBC00500D8A /* OBJ.h */,
 				4310EDB21458CCBC00500D8A /* Pie.cpp */,
-				4310EDB31458CCBC00500D8A /* Pie.hpp */,
+				4310EDB31458CCBC00500D8A /* Pie.h */,
 				4310EDB41458CCBC00500D8A /* Pie_t.cpp */,
 				4310EDB51458CCBC00500D8A /* WZM.cpp */,
-				4310EDB61458CCBC00500D8A /* WZM.hpp */,
+				4310EDB61458CCBC00500D8A /* WZM.h */,
 			);
 			name = formats;
 			path = src/formats;
@@ -557,28 +557,28 @@
 			isa = PBXGroup;
 			children = (
 				4310EDBC1458CCBC00500D8A /* ExportDialog.cpp */,
-				4310EDBD1458CCBC00500D8A /* ExportDialog.hpp */,
+				4310EDBD1458CCBC00500D8A /* ExportDialog.h */,
 				4310EDBF1458CCBC00500D8A /* ExportDialog.ui */,
 				4310EDC01458CCBC00500D8A /* ImportDialog.cpp */,
-				4310EDC11458CCBC00500D8A /* ImportDialog.hpp */,
+				4310EDC11458CCBC00500D8A /* ImportDialog.h */,
 				4310EDC31458CCBC00500D8A /* ImportDialog.ui */,
 				4310EDC41458CCBC00500D8A /* MainWindow.cpp */,
-				4310EDC51458CCBC00500D8A /* MainWindow.hpp */,
+				4310EDC51458CCBC00500D8A /* MainWindow.h */,
 				4310EDC71458CCBC00500D8A /* MainWindow.ui */,
 				4310EDC81458CCBC00500D8A /* TeamColoursDock.cpp */,
-				4310EDC91458CCBC00500D8A /* TeamColoursDock.hpp */,
+				4310EDC91458CCBC00500D8A /* TeamColoursDock.h */,
 				4310EDCB1458CCBC00500D8A /* TeamColoursDock.ui */,
 				4310EDCC1458CCBC00500D8A /* TexConfigDialog.cpp */,
-				4310EDCD1458CCBC00500D8A /* TexConfigDialog.hpp */,
+				4310EDCD1458CCBC00500D8A /* TexConfigDialog.h */,
 				4310EDCE1458CCBC00500D8A /* TexConfigDialog.ui */,
 				4310EDCF1458CCBC00500D8A /* TextureDialog.cpp */,
 				4310EDD01458CCBC00500D8A /* TextureDialog.h */,
 				4310EDD11458CCBC00500D8A /* TextureDialog.ui */,
 				4310EDD21458CCBC00500D8A /* TransformDock.cpp */,
-				4310EDD31458CCBC00500D8A /* TransformDock.hpp */,
+				4310EDD31458CCBC00500D8A /* TransformDock.h */,
 				4310EDD51458CCBC00500D8A /* TransformDock.ui */,
 				4310EDD61458CCBC00500D8A /* UVEditor.cpp */,
-				4310EDD71458CCBC00500D8A /* UVEditor.hpp */,
+				4310EDD71458CCBC00500D8A /* UVEditor.h */,
 				4310EDD91458CCBC00500D8A /* UVEditor.ui */,
 			);
 			name = ui;
@@ -589,9 +589,9 @@
 			isa = PBXGroup;
 			children = (
 				4310EDDD1458CCBC00500D8A /* QtGLView.cpp */,
-				4310EDDE1458CCBC00500D8A /* QtGLView.hpp */,
+				4310EDDE1458CCBC00500D8A /* QtGLView.h */,
 				4310EDE01458CCBC00500D8A /* QWZM.cpp */,
-				4310EDE11458CCBC00500D8A /* QWZM.hpp */,
+				4310EDE11458CCBC00500D8A /* QWZM.h */,
 			);
 			name = widgets;
 			path = src/widgets;
@@ -916,16 +916,16 @@
 			buildActionMask = 2147483647;
 			files = (
 				43EE82D214856E5100B0E0C4 /* resources.qrc in Sources */,
-				4310EE701458D8BA00500D8A /* UVEditor.hpp in Sources */,
-				4310EE711458D8BA00500D8A /* TransformDock.hpp in Sources */,
+				4310EE701458D8BA00500D8A /* UVEditor.h in Sources */,
+				4310EE711458D8BA00500D8A /* TransformDock.h in Sources */,
 				4310EE721458D8BA00500D8A /* TextureDialog.h in Sources */,
-				4310EE731458D8BA00500D8A /* TexConfigDialog.hpp in Sources */,
-				4310EE741458D8BA00500D8A /* TeamColoursDock.hpp in Sources */,
-				4310EE751458D8BA00500D8A /* QWZM.hpp in Sources */,
-				4310EE761458D8BA00500D8A /* QtGLView.hpp in Sources */,
-				4310EE771458D8BA00500D8A /* MainWindow.hpp in Sources */,
-				4310EE781458D8BA00500D8A /* ImportDialog.hpp in Sources */,
-				4310EE791458D8BA00500D8A /* ExportDialog.hpp in Sources */,
+				4310EE731458D8BA00500D8A /* TexConfigDialog.h in Sources */,
+				4310EE741458D8BA00500D8A /* TeamColoursDock.h in Sources */,
+				4310EE751458D8BA00500D8A /* QWZM.h in Sources */,
+				4310EE761458D8BA00500D8A /* QtGLView.h in Sources */,
+				4310EE771458D8BA00500D8A /* MainWindow.h in Sources */,
+				4310EE781458D8BA00500D8A /* ImportDialog.h in Sources */,
+				4310EE791458D8BA00500D8A /* ExportDialog.h in Sources */,
 				4310EDEE1458CCBC00500D8A /* ExportDialog.ui in Sources */,
 				4310EDF11458CCBC00500D8A /* ImportDialog.ui in Sources */,
 				4310EDF41458CCBC00500D8A /* MainWindow.ui in Sources */,
