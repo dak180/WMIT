@@ -368,6 +368,9 @@ QString QWZM::shaderTypeToString(wz_shader_type_t type)
 	case WZ_SHADER_PIE3_USER:
 		str = "PIE3 shader (external)";
 		break;
+	case WZ_SHADER_TCMASK:
+		str = "Team colour mask shader";
+		break;
 	default:
 		str = "Unknown!";
 	}
@@ -399,6 +402,7 @@ bool QWZM::setupTextureUnits(int type)
 	{
 	case WZ_SHADER_PIE3:
 	case WZ_SHADER_PIE3_USER:
+	case WZ_SHADER_TCMASK:
 		if (hasGLRenderTexture(WZM_TEX_DIFFUSE))
 			activateAndBindTexture(0, m_gl_textures[WZM_TEX_DIFFUSE]);
 		else
@@ -430,6 +434,7 @@ void QWZM::clearTextureUnits(int type)
 	{
 	case WZ_SHADER_PIE3:
 	case WZ_SHADER_PIE3_USER:
+	case WZ_SHADER_TCMASK:
 		deactivateTexture(3);
 		deactivateTexture(2);
 		deactivateTexture(1);
@@ -456,6 +461,7 @@ bool QWZM::initShader(int type)
 	{
 	case WZ_SHADER_PIE3:
 	case WZ_SHADER_PIE3_USER:
+	case WZ_SHADER_TCMASK:
 		int uniLoc, baseTexLoc, tcTexLoc, nmTexLoc, smTexLoc;
 
 		baseTexLoc = shader->uniformLocation("Texture0");
@@ -497,6 +503,7 @@ bool QWZM::bindShader(int type)
 	{
 	case WZ_SHADER_PIE3:
 	case WZ_SHADER_PIE3_USER:
+	case WZ_SHADER_TCMASK:
 		int uniloc = shader->uniformLocation("tcmask");
 		if (hasGLRenderTexture(WZM_TEX_TCMASK))
 		{
