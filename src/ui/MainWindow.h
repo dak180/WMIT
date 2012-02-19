@@ -56,19 +56,13 @@ public:
 
 	static bool loadModel(const QString& file, WZM& model);
 	static bool guessModelTypeFromFilename(const QString &fname, wmit_filetype_t &type);
-<<<<<<< HEAD
 	static bool saveModel(const QString& file, const WZM& model, const wmit_filetype_t &type);
 	static bool saveModel(const QString& file, const QWZM& model, const wmit_filetype_t &type);
 
-=======
-	bool saveModel(const QString& file, const WZM& model, const wmit_filetype_t &type);
-	bool saveModel(const QString& file, const QWZM& model, const wmit_filetype_t &type);
->>>>>>> ac94acc... Add an option to save as PIE 2.
 protected:
 	void changeEvent(QEvent *event);
 
 private slots:
-<<<<<<< HEAD
 	void actionOpen();
 	void actionSave();
 	void actionSaveAs();
@@ -79,21 +73,6 @@ private slots:
 
 	void viewerInitialized();
 	void shaderAction(int);
-=======
-	void on_actionOpen_triggered();
-	void on_actionSaveAs_triggered();
-	void on_actionSave_triggered();
-	void on_actionClose_triggered();
-	void on_actionTransform_triggered();
-	void on_actionUVEditor_toggled(bool);
-	void on_actionSetupTextures_triggered();
-	void on_actionAppendModel_triggered();
-	void on_actionTakeScreenshot_triggered();
-	void on_actionSaveAsPie2_triggered(bool);
-
-	void _on_viewerInitialized();
-	void _on_shaderActionTriggered(int);
->>>>>>> ac94acc... Add an option to save as PIE 2.
 
 	// transformations
 	void scaleXYZChanged(double scale);
@@ -121,7 +100,6 @@ private:
 	QWZM m_model;
 
 	bool fireTextureDialog(const bool reinit = false);
-	bool saveAsPie2;
 };
 
 #endif // MAINWINDOW_HPP

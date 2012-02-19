@@ -67,8 +67,6 @@
     <addaction name="actionAppendModel"/>
     <addaction name="separator"/>
     <addaction name="actionTakeScreenshot"/>
-    <addaction name="separator"/>
-    <addaction name="actionSaveAsPie2"/>
    </widget>
    <widget class="QMenu" name="menuView">
     <property name="title">
@@ -162,14 +160,6 @@
    </property>
    <property name="shortcut">
     <string>Ctrl+T</string>
-   </property>
-  </action>
-  <action name="actionSaveAsPie2">
-   <property name="checkable">
-    <bool>true</bool>
-   </property>
-   <property name="text">
-    <string>Save PIE As Version 2</string>
    </property>
   </action>
   <action name="actionSetupTextures">

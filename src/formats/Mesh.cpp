@@ -489,6 +489,7 @@ bool Mesh::importFromOBJ(const std::vector<OBJTri>&	faces,
 			 * are 0 based, hence < 1
 			 */
 			tmpUv = itFaces->uvs.operator [](i) < 1 ? WZMUV() : uvArray[itFaces->uvs.operator [](i) - 1];
+#pragma message "precalculate missing OBJ normal"
 			tmpNrm = itFaces->nrm.operator [](i) < 1 ? WZMVertex() : normals[itFaces->nrm.operator [](i) - 1]; //FIXME
 			inResult = tupleSet.insert(WZMPoint(verts[itFaces->tri[i]-1], tmpUv, tmpNrm));
 
