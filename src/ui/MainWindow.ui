@@ -67,8 +67,6 @@
     <addaction name="actionAppendModel"/>
     <addaction name="separator"/>
     <addaction name="actionTakeScreenshot"/>
-    <addaction name="separator"/>
-    <addaction name="actionSaveAsPie2"/>
    </widget>
    <widget class="QMenu" name="menuView">
     <property name="title">

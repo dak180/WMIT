@@ -71,7 +71,6 @@ private slots:
 	void actionSetupTextures();
 	void actionAppendModel();
 	void actionTakeScreenshot();
-	void actionSaveAsPie2(bool);
 
 	void viewerInitialized();
 	void shaderAction(int);
