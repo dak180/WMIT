@@ -36,6 +36,8 @@
 
 #include "Pie.h"
 
+bool saveAsPie2;
+
 MainWindow::MainWindow(QWidget *parent) : QMainWindow(parent),
 	m_ui(new Ui::MainWindow),
 	m_importDialog(new ImportDialog(this)),
@@ -98,6 +100,8 @@ MainWindow::MainWindow(QWidget *parent) : QMainWindow(parent),
 
 	// disable wip-parts
 	m_ui->actionSave->setDisabled(true);
+
+	saveAsPie2 = false;
 }
 
 MainWindow::~MainWindow()
@@ -188,8 +192,18 @@ bool MainWindow::saveModel(const QString &file, const WZM &model, const wmit_fil
 		break;
 	case WMIT_FT_PIE:
 	default:
-		Pie3Model p3 = model;
-		p3.write(out);
+		WZM m(model);
+		m.reverseWinding(-1);
+		Pie3Model p3 = m;
+		if (saveAsPie2)
+		{
+			Pie2Model p2 = p3;
+			p2.write(out);
+		}
+		else
+		{
+			p3.write(out);
+		}
 	}
 
 	out.close();
@@ -213,7 +227,18 @@ bool MainWindow::saveModel(const QString &file, const QWZM &model, const wmit_fi
 	case WMIT_FT_PIE:
 	default:
 		Pie3Model p3 = model;
-		p3.write(out);
+		WZM wzm(p3);
+		wzm.reverseWinding(-1);
+		p3 = wzm;
+		if (saveAsPie2)
+		{
+			Pie2Model p2 = p3;
+			p2.write(out);
+		}
+		else
+		{
+			p3.write(out);
+		}
 	}
 
 	out.close();
@@ -274,6 +299,7 @@ bool MainWindow::loadModel(const QString& file, WZM& model)
 			if (read_success)
 				model = WZM(p3);
 		}
+		model.reverseWinding(-1);
 	}
 
 	f.close();
@@ -294,13 +320,11 @@ bool MainWindow::fireTextureDialog(const bool reinit)
 
 	if (m_textureDialog->exec() == QDialog::Accepted)
 	{
-		QMap<wzm_texture_type_t, QString>::const_iterator it;
-
 		m_model.clearTextureNames();
 		m_model.clearGLRenderTextures();
 
 		m_textureDialog->getTexturesFilepath(texmap);
-		for (it = texmap.begin(); it != texmap.end(); ++it)
+		for (QMap<wzm_texture_type_t, QString>::const_iterator it = texmap.begin(); it != texmap.end(); ++it)
 		{
 			if (!it.value().isEmpty())
 			{
@@ -345,6 +369,11 @@ void MainWindow::actionOpen()
 		openFile(filePath);
 		// else popup on fail?
 	}
+}
+
+void MainWindow::actionSaveAsPie2(bool pie2)
+{
+	saveAsPie2 = pie2;
 }
 
 void MainWindow::actionSave()
@@ -439,6 +468,10 @@ void MainWindow::viewerInitialized()
 			case WZ_SHADER_PIE3_USER:
 				pathvert = WMIT_SHADER_PIE3_USERFILE_VERT;
 				pathfrag = WMIT_SHADER_PIE3_USERFILE_FRAG;
+				break;
+			case WZ_SHADER_TCMASK:
+				pathvert = WMIT_SHADER_TCMASK_DEFPATH_VERT;
+				pathfrag = WMIT_SHADER_TCMASK_DEFPATH_FRAG;
 				break;
 			default:
 				break;

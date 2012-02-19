@@ -63,6 +63,7 @@ protected:
 	void changeEvent(QEvent *event);
 
 private slots:
+
 	void actionOpen();
 	void actionSave();
 	void actionSaveAs();
@@ -70,6 +71,7 @@ private slots:
 	void actionSetupTextures();
 	void actionAppendModel();
 	void actionTakeScreenshot();
+	void actionSaveAsPie2(bool);
 
 	void viewerInitialized();
 	void shaderAction(int);
