@@ -61,9 +61,9 @@ public:
 
 protected:
 	void changeEvent(QEvent *event);
+	void closeEvent(QCloseEvent *event);
 
 private slots:
-
 	void actionOpen();
 	void actionOpenRecent(QAction *action);
 	void actionClearRecentFiles();
